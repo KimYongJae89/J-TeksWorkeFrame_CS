@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutImageManipulator" xml:space="preserve">
+    <value>About ImageManipulator</value>
+  </data>
+  <data name="AddProfile" xml:space="preserve">
+    <value>Add Profile</value>
+  </data>
+  <data name="AddRoi" xml:space="preserve">
+    <value>Add Roi</value>
+  </data>
+  <data name="Analyze" xml:space="preserve">
+    <value>Analyze</value>
+  </data>
+  <data name="Angle" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="AvgCount" xml:space="preserve">
+    <value>Avg Count</value>
+  </data>
+  <data name="BitConverter" xml:space="preserve">
+    <value>Bit Converter</value>
+  </data>
+  <data name="CalibratePixelSize" xml:space="preserve">
+    <value>Calibrate Pixel Size</value>
+  </data>
+  <data name="CameraAcquisition" xml:space="preserve">
+    <value>Camera Acquisition</value>
+  </data>
+  <data name="CameraType" xml:space="preserve">
+    <value>Camera Type</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ChannelImageSizeERR" xml:space="preserve">
+    <value>Image size per channel is different.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CloseFilterForm" xml:space="preserve">
+    <value>Please close the filter form.</value>
+  </data>
+  <data name="Combine3Channels" xml:space="preserve">
+    <value>Combine 3 Channels</value>
+  </data>
+  <data name="CombineImageErr" xml:space="preserve">
+    <value>Only 8-bit grey images are supported.</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="ConvertBlueChannelTo8BitGreyImage" xml:space="preserve">
+    <value>Convert blue channel To 8-bit grey image</value>
+  </data>
+  <data name="ConvertGreenChannelTo8BitGreyImage" xml:space="preserve">
+    <value>Convert green channel To 8-bit grey image</value>
+  </data>
+  <data name="ConvertRedChannelTo8BitGreyImage" xml:space="preserve">
+    <value>Convert red channel To 8-bit grey image</value>
+  </data>
+  <data name="ConvertToImage" xml:space="preserve">
+    <value>Convert To Image</value>
+  </data>
+  <data name="Crop" xml:space="preserve">
+    <value>Crop</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>Delete Profile</value>
+  </data>
+  <data name="DeleteRoi" xml:space="preserve">
+    <value>Delete Roi</value>
+  </data>
+  <data name="DestinationImage" xml:space="preserve">
+    <value>Destination Image</value>
+  </data>
+  <data name="Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="DrawNone" xml:space="preserve">
+    <value>None Mode</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ER_16bitSaveFmt" xml:space="preserve">
+    <value>16-bit save only supports TIFF and DCM formats.</value>
+  </data>
+  <data name="ER_FT_ApertureSizeRange" xml:space="preserve">
+    <value>The apertureSize value must be one of 1, 3, 5, or 7</value>
+  </data>
+  <data name="ER_JIMG_CantSupportColorImg" xml:space="preserve">
+    <value>Color images are not supported.</value>
+  </data>
+  <data name="ER_JIMG_CantSupportGrayImg" xml:space="preserve">
+    <value>Grayscale images are not supported.</value>
+  </data>
+  <data name="ER_JIMG_cvIImg" xml:space="preserve">
+    <value>cvIImg is null</value>
+  </data>
+  <data name="ER_JIMG_CvMatIsNull" xml:space="preserve">
+    <value>cvMat is null</value>
+  </data>
+  <data name="ER_JIMG_data8And16isNotNull" xml:space="preserve">
+    <value>data8 and data16 both of them data exist</value>
+  </data>
+  <data name="ER_JIMG_data8And16isNull" xml:space="preserve">
+    <value>data8 and data16 is null</value>
+  </data>
+  <data name="ER_JIMG_DepthFmt" xml:space="preserve">
+    <value>depth can not be None</value>
+  </data>
+  <data name="ER_JIMG_FileNotExist" xml:space="preserve">
+    <value>This file does not exist</value>
+  </data>
+  <data name="ER_JIMG_IsNotColorImg" xml:space="preserve">
+    <value>is not color image</value>
+  </data>
+  <data name="ER_JIMG_IsNotGrayImg" xml:space="preserve">
+    <value>is not grayscale image</value>
+  </data>
+  <data name="ER_JIMG_LenIsMustBe256" xml:space="preserve">
+    <value>Length is must be 256</value>
+  </data>
+  <data name="ER_JIMG_LenIsMustBe65536" xml:space="preserve">
+    <value>Length is must be 65536</value>
+  </data>
+  <data name="ER_JIMG_MethodExcute" xml:space="preserve">
+    <value>The method was not executed normally</value>
+  </data>
+  <data name="ER_JIMG_NotSameSizes" xml:space="preserve">
+    <value>Images are not the same size</value>
+  </data>
+  <data name="ER_JIMG_PointIsOutOfArea" xml:space="preserve">
+    <value>Point out of image area</value>
+  </data>
+  <data name="ER_JIMG_TiffSaveNullData" xml:space="preserve">
+    <value>tif save error data8 or data16 is null</value>
+  </data>
+  <data name="Excute" xml:space="preserve">
+    <value>Excute</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="FileOpenError" xml:space="preserve">
+    <value>The file is not supported format.</value>
+  </data>
+  <data name="FileSeparateError" xml:space="preserve">
+    <value>Only color images are supported.</value>
+  </data>
+  <data name="Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="FitToScreen" xml:space="preserve">
+    <value>Fit To Screen</value>
+  </data>
+  <data name="FlipHorizontally" xml:space="preserve">
+    <value>Flip Horizontally</value>
+  </data>
+  <data name="FlipVertically" xml:space="preserve">
+    <value>Flip Vertically</value>
+  </data>
+  <data name="FolderSave" xml:space="preserve">
+    <value>All files in the selected image path are overwritten. Do you want to continue saving files in the path?</value>
+  </data>
+  <data name="FovMessage" xml:space="preserve">
+    <value>Please enter a FOV.</value>
+  </data>
+  <data name="FT_Average" xml:space="preserve">
+    <value>Average filter, makes the image blurred. Determines pixel brightness by the average of surrounding pixels</value>
+  </data>
+  <data name="FT_Blur" xml:space="preserve">
+    <value>Blur filter, It is effective for removing noise, but it needs to be careful because the boundary line is also blurred.</value>
+  </data>
+  <data name="FT_Canny" xml:space="preserve">
+    <value>Canny Edge Detector, Extract boundaries</value>
+  </data>
+  <data name="FT_Dilate" xml:space="preserve">
+    <value>Dilate filter, mainly used to remove small noises</value>
+  </data>
+  <data name="FT_Erode" xml:space="preserve">
+    <value>Erode filter, usually used when extracting an object and merging it into a larger object if it comes out as two or more small parts</value>
+  </data>
+  <data name="FT_FlipHorizontal" xml:space="preserve">
+    <value>Flip image to the Horizontal</value>
+  </data>
+  <data name="FT_FlipVertical" xml:space="preserve">
+    <value>Flip image to the Vertical</value>
+  </data>
+  <data name="FT_HorizonEdge" xml:space="preserve">
+    <value>Horizontal filter, shows the horizontal boundaries are enhanced</value>
+  </data>
+  <data name="FT_Laplacian" xml:space="preserve">
+    <value>Laplacian filter, the border is highlighted. This results in more natural results than highlighting other borders. However, there is a disadvantage that the noise is also emphasized.</value>
+  </data>
+  <data name="FT_Median" xml:space="preserve">
+    <value>Median filter, often used to remove noise. Determines pixel brightness by the median of surrounding pixels</value>
+  </data>
+  <data name="FT_RotateCCW" xml:space="preserve">
+    <value>Rotate image 90 degrees to the left</value>
+  </data>
+  <data name="FT_RotateCW" xml:space="preserve">
+    <value>Rotate image 90 degrees to the right</value>
+  </data>
+  <data name="FT_Sharp1" xml:space="preserve">
+    <value>Sharpening filter (weak intensity), sharpens the image. You need to be careful because the noise is also emphasized</value>
+  </data>
+  <data name="FT_Sharp2" xml:space="preserve">
+    <value>Sharpening filter (Strong intensity), sharpens the image. You need to be careful because the noise is also emphasized</value>
+  </data>
+  <data name="FT_Sobel" xml:space="preserve">
+    <value>Sobel filter, It is often used to detect boundaries. Borders of all directions can be extracted</value>
+  </data>
+  <data name="FT_VerticalEdge" xml:space="preserve">
+    <value>Vertical filter, showing enhanced vertical borders</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Histogram" xml:space="preserve">
+    <value>Histogram</value>
+  </data>
+  <data name="ImageRotation" xml:space="preserve">
+    <value>Image Rotation</value>
+  </data>
+  <data name="LanguageMessage" xml:space="preserve">
+    <value>Please select a language.</value>
+  </data>
+  <data name="LanguageType" xml:space="preserve">
+    <value>Language Type</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="LengthError" xml:space="preserve">
+    <value>The actual length is wrong.</value>
+  </data>
+  <data name="LicenseError1" xml:space="preserve">
+    <value>License not found.</value>
+  </data>
+  <data name="LicenseError2" xml:space="preserve">
+    <value>Please verify that the dongle is installed properly.</value>
+  </data>
+  <data name="LoadFilterList" xml:space="preserve">
+    <value>Load FilterList</value>
+  </data>
+  <data name="LoadFilterListMessage" xml:space="preserve">
+    <value>This file is not a valid format.</value>
+  </data>
+  <data name="LoadImage" xml:space="preserve">
+    <value>Load Image</value>
+  </data>
+  <data name="LoadRoi" xml:space="preserve">
+    <value>Load Roi</value>
+  </data>
+  <data name="Lut" xml:space="preserve">
+    <value>Lut</value>
+  </data>
+  <data name="Measurement" xml:space="preserve">
+    <value>Measurement</value>
+  </data>
+  <data name="MetaInfo" xml:space="preserve">
+    <value>Meta Info</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Notenoughchannels" xml:space="preserve">
+    <value>Not enough channels.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OneZoom" xml:space="preserve">
+    <value>1:1 Zoom</value>
+  </data>
+  <data name="OpenBlueChannelImage" xml:space="preserve">
+    <value>Open Blue Channel Image</value>
+  </data>
+  <data name="OpenFile" xml:space="preserve">
+    <value>File Open</value>
+  </data>
+  <data name="OpenGreenChannelImage" xml:space="preserve">
+    <value>Open Green Channel Image</value>
+  </data>
+  <data name="OpenRedChannelImage" xml:space="preserve">
+    <value>Open Red Channel Image</value>
+  </data>
+  <data name="Panning" xml:space="preserve">
+    <value>Panning</value>
+  </data>
+  <data name="PixelCalibrationPage1" xml:space="preserve">
+    <value>Select or Draw a straight line to the measurement target to be referenced.</value>
+  </data>
+  <data name="PixelCalibrationPage1_1" xml:space="preserve">
+    <value>*In case of Profile, it is measured as the length between Marks.</value>
+  </data>
+  <data name="PixelCalibrationPage2" xml:space="preserve">
+    <value>Enter the actual length of the measurement target.</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="PreviewNotImage" xml:space="preserve">
+    <value>No preview image exists.</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="ProcessingTime" xml:space="preserve">
+    <value>측정시간</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="ProfileList" xml:space="preserve">
+    <value>Profile List</value>
+  </data>
+  <data name="Protractor" xml:space="preserve">
+    <value>Protractor</value>
+  </data>
+  <data name="RecentFile" xml:space="preserve">
+    <value>RecentFile</value>
+  </data>
+  <data name="Resize" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="ResizeMessage" xml:space="preserve">
+    <value>Please enter a value to resize.</value>
+  </data>
+  <data name="RestartMessage" xml:space="preserve">
+    <value>Please Restart the program for the language changes to take effect.</value>
+  </data>
+  <data name="Roi" xml:space="preserve">
+    <value>Roi</value>
+  </data>
+  <data name="RoiList" xml:space="preserve">
+    <value>Roi List</value>
+  </data>
+  <data name="Rotation90DegreesLeft" xml:space="preserve">
+    <value>Rotation 90 Degrees Left</value>
+  </data>
+  <data name="Rotation90DegreesRight" xml:space="preserve">
+    <value>Rotation 90 Degrees Right</value>
+  </data>
+  <data name="Ruler" xml:space="preserve">
+    <value>Ruler</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveFilesInFolders" xml:space="preserve">
+    <value>Save Files In Folders</value>
+  </data>
+  <data name="SaveFilterList" xml:space="preserve">
+    <value>Save FilterList</value>
+  </data>
+  <data name="SaveImage" xml:space="preserve">
+    <value>Save Image</value>
+  </data>
+  <data name="SaveImageAs" xml:space="preserve">
+    <value>Save Image As</value>
+  </data>
+  <data name="SaveRoi" xml:space="preserve">
+    <value>Save Roi</value>
+  </data>
+  <data name="SeparateColorImage" xml:space="preserve">
+    <value>Separate Color Image</value>
+  </data>
+  <data name="SetLanguage" xml:space="preserve">
+    <value>Set Language</value>
+  </data>
+  <data name="SetMeasurement" xml:space="preserve">
+    <value>Set Measurement</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="SourceImage" xml:space="preserve">
+    <value>Source Image</value>
+  </data>
+  <data name="TagView" xml:space="preserve">
+    <value>Tag View</value>
+  </data>
+  <data name="Threshold" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="TH_Threshold" xml:space="preserve">
+    <value>Binarization, Use a given threshold value to represent the image in two colors, black and white</value>
+  </data>
+  <data name="TH_ThresholdAdaptive" xml:space="preserve">
+    <value>Adaptive binarization, Binarization does not properly represent some areas if the shading of the image is different. Adaptive binarization compensates for this problem by dividing the image into smaller areas and performing binarization</value>
+  </data>
+  <data name="TH_ThresholdOtsu" xml:space="preserve">
+    <value>Otsu's binarization, using Otsu's algorithm, computes the appropriate threshold and executes the binarization</value>
+  </data>
+  <data name="To16bit" xml:space="preserve">
+    <value>To 16bit</value>
+  </data>
+  <data name="To24bit" xml:space="preserve">
+    <value>To 24bit</value>
+  </data>
+  <data name="To8bit" xml:space="preserve">
+    <value>To 8bit</value>
+  </data>
+  <data name="ToolReset" xml:space="preserve">
+    <value>Tool Reset</value>
+  </data>
+  <data name="Transform" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="WndLeveling" xml:space="preserve">
+    <value>Window Leveling</value>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="ApplyMessage" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+</root>
